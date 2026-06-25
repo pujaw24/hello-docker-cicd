@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run --rm hello-docker-app'
+                sh 'docker run hello-docker-app'
             }
         }
     }
